@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Organizzazione evento aziendale" section_id="e834c6d92f8ea01016cffd1df699b641" sys_domain="global" table="x_570213_bacheca_annuncio" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nomevento</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 08:47:26</sys_created_on>
+            <sys_id>4310f4e92f46e01016cffd1df699b6cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Organizzazione evento aziendale" display_value="Organizzazione evento aziendale" name="x_570213_bacheca_annuncio" sys_domain="global" view="Default view">e834c6d92f8ea01016cffd1df699b641</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 08:47:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tipologiaevento</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 08:47:26</sys_created_on>
+            <sys_id>0b10f4e92f46e01016cffd1df699b6cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Organizzazione evento aziendale" display_value="Organizzazione evento aziendale" name="x_570213_bacheca_annuncio" sys_domain="global" view="Default view">e834c6d92f8ea01016cffd1df699b641</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 08:47:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>aggiungievento</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 08:47:26</sys_created_on>
+            <sys_id>8b10f4e92f46e01016cffd1df699b6cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Organizzazione evento aziendale" display_value="Organizzazione evento aziendale" name="x_570213_bacheca_annuncio" sys_domain="global" view="Default view">e834c6d92f8ea01016cffd1df699b641</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 08:47:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>luogo</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 08:47:26</sys_created_on>
+            <sys_id>0f10f4e92f46e01016cffd1df699b6cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Organizzazione evento aziendale" display_value="Organizzazione evento aziendale" name="x_570213_bacheca_annuncio" sys_domain="global" view="Default view">e834c6d92f8ea01016cffd1df699b641</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 08:47:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>programma</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 08:47:26</sys_created_on>
+            <sys_id>8f10f4e92f46e01016cffd1df699b6cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Organizzazione evento aziendale" display_value="Organizzazione evento aziendale" name="x_570213_bacheca_annuncio" sys_domain="global" view="Default view">e834c6d92f8ea01016cffd1df699b641</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 08:47:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>catering</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 08:47:26</sys_created_on>
+            <sys_id>0310f4e92f46e01016cffd1df699b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Organizzazione evento aziendale" display_value="Organizzazione evento aziendale" name="x_570213_bacheca_annuncio" sys_domain="global" view="Default view">e834c6d92f8ea01016cffd1df699b641</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 08:47:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>eventoonline</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 08:47:26</sys_created_on>
+            <sys_id>8310f4e92f46e01016cffd1df699b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Organizzazione evento aziendale" display_value="Organizzazione evento aziendale" name="x_570213_bacheca_annuncio" sys_domain="global" view="Default view">e834c6d92f8ea01016cffd1df699b641</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 08:47:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budgetdisposizione</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 08:47:26</sys_created_on>
+            <sys_id>0710f4e92f46e01016cffd1df699b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Organizzazione evento aziendale" display_value="Organizzazione evento aziendale" name="x_570213_bacheca_annuncio" sys_domain="global" view="Default view">e834c6d92f8ea01016cffd1df699b641</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 08:47:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 08:47:26</sys_created_on>
+            <sys_id>8710f4e92f46e01016cffd1df699b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Organizzazione evento aziendale" display_value="Organizzazione evento aziendale" name="x_570213_bacheca_annuncio" sys_domain="global" view="Default view">e834c6d92f8ea01016cffd1df699b641</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 08:47:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dataevento</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 08:47:26</sys_created_on>
+            <sys_id>0b10f4e92f46e01016cffd1df699b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Organizzazione evento aziendale" display_value="Organizzazione evento aziendale" name="x_570213_bacheca_annuncio" sys_domain="global" view="Default view">e834c6d92f8ea01016cffd1df699b641</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 08:47:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>utentevento</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 08:47:26</sys_created_on>
+            <sys_id>8b10f4e92f46e01016cffd1df699b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Organizzazione evento aziendale" display_value="Organizzazione evento aziendale" name="x_570213_bacheca_annuncio" sys_domain="global" view="Default view">e834c6d92f8ea01016cffd1df699b641</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 08:47:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>annullata</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 08:47:26</sys_created_on>
+            <sys_id>0f10f4e92f46e01016cffd1df699b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Organizzazione evento aziendale" display_value="Organizzazione evento aziendale" name="x_570213_bacheca_annuncio" sys_domain="global" view="Default view">e834c6d92f8ea01016cffd1df699b641</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 08:47:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>causannullamento</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 08:47:26</sys_created_on>
+            <sys_id>8f10f4e92f46e01016cffd1df699b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Organizzazione evento aziendale" display_value="Organizzazione evento aziendale" name="x_570213_bacheca_annuncio" sys_domain="global" view="Default view">e834c6d92f8ea01016cffd1df699b641</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 08:47:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>altracausa</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 08:47:26</sys_created_on>
+            <sys_id>0310f4e92f46e01016cffd1df699b6ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Organizzazione evento aziendale" display_value="Organizzazione evento aziendale" name="x_570213_bacheca_annuncio" sys_domain="global" view="Default view">e834c6d92f8ea01016cffd1df699b641</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 08:47:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Organizzazione evento aziendale</caption>
+            <header>false</header>
+            <name>x_570213_bacheca_annuncio</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 20:16:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e834c6d92f8ea01016cffd1df699b641</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_570213_bacheca_annuncio</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+            <sys_update_name>sys_ui_section_e834c6d92f8ea01016cffd1df699b641</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 20:16:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

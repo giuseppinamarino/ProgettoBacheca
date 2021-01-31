@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>tipologiaproposta</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 13:55:08</sys_created_on>
+        <sys_id>7843afbc2f4e601016cffd1df699b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tipologiaproposta</sys_name>
+        <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7843afbc2f4e601016cffd1df699b699</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 13:55:08</sys_updated_on>
+        <table>x_570213_bacheca_annuncio</table>
+        <ui_policy display_value="Aggiungi  tipologia di proposta a Proposta per il miglioramento delle qualità">3b82e7bc2f4e601016cffd1df699b63f</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bacheca">53aebe342f0e601016cffd1df699b669</application>
+        <file_path/>
+        <instance_id>9ff47c20db270c5407072f17d49619f0</instance_id>
+        <instance_name>dev102776</instance_name>
+        <name>sys_ui_policy_action_7843afbc2f4e601016cffd1df699b699</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>false</disabled><field>tipologiaproposta</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-29 13:55:08</sys_created_on><sys_id>7843afbc2f4e601016cffd1df699b699</sys_id><sys_mod_count>0</sys_mod_count><sys_name>tipologiaproposta</sys_name><sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package><sys_policy/><sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope><sys_update_name>sys_ui_policy_action_7843afbc2f4e601016cffd1df699b699</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-29 13:55:08</sys_updated_on><table>x_570213_bacheca_annuncio</table><ui_policy display_value="Aggiungi  tipologia di proposta a Proposta per il miglioramento delle qualità">3b82e7bc2f4e601016cffd1df699b63f</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-84690399</payload_hash>
+        <record_name>tipologiaproposta</record_name>
+        <reverted_from/>
+        <source>5baebe342f0e601016cffd1df699b66b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 13:55:08</sys_created_on>
+        <sys_id>4f53e7bc2f4e601016cffd1df699b646</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1774e6d19260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 13:55:08</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>8753e7bcc64e601016ca1e0cabd47246</update_guid>
+        <update_guid_history>8753e7bcc64e601016ca1e0cabd47246:-84690399</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 21:17:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>22960545b8144acbbc3991d049b78551</sys_id>
+        <sys_metadata>7843afbc2f4e601016cffd1df699b699</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tipologiaproposta</sys_name>
+        <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+        <sys_scope_delete display_value="">2262fd9e84974fb0980c42e6b69bb100</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_7843afbc2f4e601016cffd1df699b699</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_7843afbc2f4e601016cffd1df699b699">4f53e7bc2f4e601016cffd1df699b646</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 21:17:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

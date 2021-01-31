@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_tipocommento" table="x_570213_bacheca_commento" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_tipocommento</element>
+            <name>x_570213_bacheca_commento</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 13:01:07</sys_created_on>
+            <sys_id>cb2aa5a12f0ae01016cffd1df699b605</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_tipocommento</sys_name>
+            <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+            <sys_update_name>sys_choice_x_570213_bacheca_commento_u_tipocommento</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 13:01:07</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tipocommento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ironico</label>
+            <language>en</language>
+            <name>x_570213_bacheca_commento</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 13:01:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>832aa5a12f0ae01016cffd1df699b605</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 13:01:07</sys_updated_on>
+            <value>ironico</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tipocommento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arrabbiato</label>
+            <language>en</language>
+            <name>x_570213_bacheca_commento</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 13:01:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b2aa5a12f0ae01016cffd1df699b607</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 13:01:07</sys_updated_on>
+            <value>arrabbiato</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tipocommento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Riflessivo</label>
+            <language>en</language>
+            <name>x_570213_bacheca_commento</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 13:01:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b2aa5a12f0ae01016cffd1df699b608</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 13:01:07</sys_updated_on>
+            <value>riflessivo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tipocommento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pensieroso</label>
+            <language>en</language>
+            <name>x_570213_bacheca_commento</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 13:01:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f2aa5a12f0ae01016cffd1df699b609</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 13:01:07</sys_updated_on>
+            <value>pensieroso</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tipocommento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Amorevole</label>
+            <language>en</language>
+            <name>x_570213_bacheca_commento</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 13:01:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f2aa5a12f0ae01016cffd1df699b60a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 13:01:07</sys_updated_on>
+            <value>amorevole</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tipocommento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Augurio</label>
+            <language>en</language>
+            <name>x_570213_bacheca_commento</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 13:01:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>032aa5a12f0ae01016cffd1df699b60c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 13:01:07</sys_updated_on>
+            <value>augurio</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tipocommento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wow</label>
+            <language>en</language>
+            <name>x_570213_bacheca_commento</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 13:01:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>832aa5a12f0ae01016cffd1df699b60d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 13:01:07</sys_updated_on>
+            <value>wow</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tipocommento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sigh</label>
+            <language>en</language>
+            <name>x_570213_bacheca_commento</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 13:01:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>072aa5a12f0ae01016cffd1df699b60e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 13:01:07</sys_updated_on>
+            <value>sigh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_tipocommento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Altro</label>
+            <language>en</language>
+            <name>x_570213_bacheca_commento</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 13:01:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>872aa5a12f0ae01016cffd1df699b60f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 13:01:07</sys_updated_on>
+            <value>altro</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

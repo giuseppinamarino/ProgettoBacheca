@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="causannullamento" table="x_570213_bacheca_annuncio" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>causannullamento</element>
+            <name>x_570213_bacheca_annuncio</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 13:29:27</sys_created_on>
+            <sys_id>3a7ddfb82f4e601016cffd1df699b636</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>causannullamento</sys_name>
+            <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+            <sys_update_name>sys_choice_x_570213_bacheca_annuncio_causannullamento</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 13:29:27</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>causannullamento</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Altra causa annullamento</label>
+            <language>en</language>
+            <name>x_570213_bacheca_annuncio</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 13:29:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f67ddfb82f4e601016cffd1df699b639</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 13:32:37</sys_updated_on>
+            <value>altracausannullamento</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>causannullamento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Riunione</label>
+            <language>en</language>
+            <name>x_570213_bacheca_annuncio</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 13:29:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe7ddfb82f4e601016cffd1df699b635</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 13:29:27</sys_updated_on>
+            <value>riunione</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>causannullamento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Festività</label>
+            <language>en</language>
+            <name>x_570213_bacheca_annuncio</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 13:29:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>767ddfb82f4e601016cffd1df699b638</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 13:29:27</sys_updated_on>
+            <value>festività</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>causannullamento</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Altro</label>
+            <language>en</language>
+            <name>x_570213_bacheca_annuncio</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 13:32:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5d3ed7f82f4e601016cffd1df699b690</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 13:32:37</sys_updated_on>
+            <value>altro</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

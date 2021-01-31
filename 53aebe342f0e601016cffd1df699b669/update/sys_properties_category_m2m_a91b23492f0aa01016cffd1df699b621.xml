@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="CategoriaPropertiesData">ef39ebc52f0aa01016cffd1df699b626</category>
+        <order>1</order>
+        <property display_value="x_570213_bacheca.PropertiesData" name="x_570213_bacheca.PropertiesData">3c6a27092f0aa01016cffd1df699b6b2</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 09:08:08</sys_created_on>
+        <sys_id>a91b23492f0aa01016cffd1df699b621</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_570213_bacheca.PropertiesData.CategoriaPropertiesData</sys_name>
+        <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_a91b23492f0aa01016cffd1df699b621</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 09:08:08</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

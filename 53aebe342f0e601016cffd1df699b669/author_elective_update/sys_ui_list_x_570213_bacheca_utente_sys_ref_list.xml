@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_570213_bacheca_utente" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cognome</element>
+            <list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 14:53:35</sys_created_on>
+            <sys_id>a6e34ee12f4ae01016cffd1df699b6fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 14:53:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>nome</element>
+            <list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 14:53:35</sys_created_on>
+            <sys_id>2ee34ee12f4ae01016cffd1df699b6fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 14:53:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>datanascita</element>
+            <list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 14:53:35</sys_created_on>
+            <sys_id>aee34ee12f4ae01016cffd1df699b6fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 14:53:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mail</element>
+            <list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 14:53:35</sys_created_on>
+            <sys_id>22e34ee12f4ae01016cffd1df699b6fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 14:53:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cf</element>
+            <list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 14:53:35</sys_created_on>
+            <sys_id>a2e34ee12f4ae01016cffd1df699b6fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 14:53:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_regione</element>
+            <list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 14:53:35</sys_created_on>
+            <sys_id>26e34ee12f4ae01016cffd1df699b6fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 14:53:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_provincia</element>
+            <list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 14:53:35</sys_created_on>
+            <sys_id>a6e34ee12f4ae01016cffd1df699b6fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 14:53:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>luogodinascita</element>
+            <list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 14:53:35</sys_created_on>
+            <sys_id>2ae34ee12f4ae01016cffd1df699b6fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 14:53:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_nazionalit</element>
+            <list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 14:53:35</sys_created_on>
+            <sys_id>aae34ee12f4ae01016cffd1df699b6fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 14:53:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_consenso</element>
+            <list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 14:53:35</sys_created_on>
+            <sys_id>2ee34ee12f4ae01016cffd1df699b6fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 14:53:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_570213_bacheca_utente</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 14:53:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e6e34ee12f4ae01016cffd1df699b6fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_570213_bacheca_utente</sys_name>
+            <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+            <sys_update_name>sys_ui_list_x_570213_bacheca_utente_sys_ref_list</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 14:53:35</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">70507340c923101091f9f0646483272e</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bacheca">53aebe342f0e601016cffd1df699b669</application>
+        <file_path/>
+        <instance_id>9ff47c20db270c5407072f17d49619f0</instance_id>
+        <instance_name>dev102776</instance_name>
+        <name>sys_ui_list_x_570213_bacheca_utente_sys_ref_list</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_570213_bacheca_utente" version="2" view="sys_ref_list"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>cognome</element><list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-31 14:53:35</sys_created_on><sys_id>a6e34ee12f4ae01016cffd1df699b6fc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-31 14:53:35</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>nome</element><list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-31 14:53:35</sys_created_on><sys_id>2ee34ee12f4ae01016cffd1df699b6fc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-31 14:53:35</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>datanascita</element><list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-31 14:53:35</sys_created_on><sys_id>aee34ee12f4ae01016cffd1df699b6fc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-31 14:53:35</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>mail</element><list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-31 14:53:35</sys_created_on><sys_id>22e34ee12f4ae01016cffd1df699b6fd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-31 14:53:35</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>cf</element><list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-31 14:53:35</sys_created_on><sys_id>a2e34ee12f4ae01016cffd1df699b6fd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-31 14:53:35</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_regione</element><list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-31 14:53:35</sys_created_on><sys_id>26e34ee12f4ae01016cffd1df699b6fd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-31 14:53:35</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_provincia</element><list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id><max_value>false</max_value><min_value>false</min_value><position>6</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-31 14:53:35</sys_created_on><sys_id>a6e34ee12f4ae01016cffd1df699b6fd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-31 14:53:35</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>luogodinascita</element><list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id><max_value>false</max_value><min_value>false</min_value><position>7</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-31 14:53:35</sys_created_on><sys_id>2ae34ee12f4ae01016cffd1df699b6fd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-31 14:53:35</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_nazionalit</element><list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id><max_value>false</max_value><min_value>false</min_value><position>8</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-31 14:53:35</sys_created_on><sys_id>aae34ee12f4ae01016cffd1df699b6fd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-31 14:53:35</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_consenso</element><list_id display_value="x_570213_bacheca_utente" element="NULL" name="x_570213_bacheca_utente" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">e6e34ee12f4ae01016cffd1df699b6fb</list_id><max_value>false</max_value><min_value>false</min_value><position>9</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-31 14:53:35</sys_created_on><sys_id>2ee34ee12f4ae01016cffd1df699b6fd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-31 14:53:35</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_570213_bacheca_utente</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-31 14:53:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e6e34ee12f4ae01016cffd1df699b6fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_570213_bacheca_utente</sys_name><sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package><sys_policy/><sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope><sys_update_name>sys_ui_list_x_570213_bacheca_utente_sys_ref_list</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-31 14:53:35</sys_updated_on><sys_user/><view display_value="Reference List" name="sys_ref_list">70507340c923101091f9f0646483272e</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-1129418984</payload_hash>
+        <record_name>Utente</record_name>
+        <reverted_from/>
+        <source>5baebe342f0e601016cffd1df699b66b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-31 14:53:35</sys_created_on>
+        <sys_id>eae302252f4ae01016cffd1df699b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17758ef52530000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-31 14:53:35</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>66e30225584ae010700f401d26174af7</update_guid>
+        <update_guid_history>66e30225584ae010700f401d26174af7:-1129418984,121b9778c64e6010754b088b7ccb2ee7:1445246683,161b9778894e60102c1406b3739daae1:-50864262</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-31 14:55:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>20853b28fe6a42e2885e3d128fd154a4</sys_id>
+        <sys_metadata>e6e34ee12f4ae01016cffd1df699b6fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_570213_bacheca_utente</sys_name>
+        <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+        <sys_parent display_value="">e2308bf42f0e601016cffd1df699b60c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+        <sys_scope_delete display_value="">2262fd9e84974fb0980c42e6b69bb100</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_570213_bacheca_utente_sys_ref_list</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_570213_bacheca_utente_sys_ref_list">eae302252f4ae01016cffd1df699b6f7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-31 14:55:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

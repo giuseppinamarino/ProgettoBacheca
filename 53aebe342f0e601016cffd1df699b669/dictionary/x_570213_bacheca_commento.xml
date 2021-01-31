@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Commento" max_length="40" name="x_570213_bacheca_commento" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Data e ora Commento" max_length="40" name="datacommento" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="ID Utente" max_length="32" name="id" reference="x_570213_bacheca_utente" type="reference"/>
+        <element attributes="encode_utf8=false" label="IDAnnuncio" max_length="32" name="idannuncio" reference="x_570213_bacheca_annuncio" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Mail Utente" max_length="40" name="mailutente" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Testo del commento" max_length="400" name="testo_del_commento" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Titolo del commento" max_length="40" name="titolo_del_commento" type="string"/>
+        <element attributes="encode_utf8=false" label="Utente Commento" max_length="32" name="utente_commento" reference="x_570213_bacheca_utente" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Altro Commento" max_length="40" name="u_altro_commento" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="organizzazionev" label="Argomento Commento" max_length="40" name="u_argomento" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Organizzazione Evento Aziendale" sequence="0" value="organizzazionev"/>
+                <element inactive_on_update="false" label="Proposta per il miglioramento della qualità del lavoro" sequence="1" value="proposta"/>
+                <element inactive_on_update="false" label="Organizzazione di un'attività informale" sequence="2" value="organizzazione"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="annullamento" label="Relativo a:" max_length="40" name="u_relativo" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Annullamento" sequence="0" value="annullamento"/>
+                <element inactive_on_update="false" label="Rinvio" sequence="1" value="rinvio"/>
+                <element inactive_on_update="false" label="Evento Aziendale" sequence="2" value="evento1"/>
+                <element inactive_on_update="false" label="Evento Informale" sequence="3" value="evento2"/>
+                <element inactive_on_update="false" label="Gita" sequence="4" value="gita"/>
+                <element inactive_on_update="false" label="Pizzata" sequence="5" value="pizzata"/>
+                <element inactive_on_update="false" label="Location" sequence="6" value="location"/>
+                <element inactive_on_update="false" label="Quota" sequence="7" value="quota"/>
+                <element inactive_on_update="false" label="Rifiutata" sequence="8" value="rifiutata"/>
+                <element inactive_on_update="false" label="Accettata" sequence="9" value="accettata"/>
+                <element inactive_on_update="false" label="Orario" sequence="10" value="orario"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Relativo all'annuncio?" max_length="40" name="u_relativoa" type="string">
+            <choice>
+                <element inactive_on_update="false" label="NO" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="SI" sequence="1" value="si"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="ironico" label="Tipo Commento" max_length="40" name="u_tipocommento" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Ironico" sequence="0" value="ironico"/>
+                <element inactive_on_update="false" label="Arrabbiato" sequence="1" value="arrabbiato"/>
+                <element inactive_on_update="false" label="Riflessivo" sequence="2" value="riflessivo"/>
+                <element inactive_on_update="false" label="Pensieroso" sequence="3" value="pensieroso"/>
+                <element inactive_on_update="false" label="Amorevole" sequence="4" value="amorevole"/>
+                <element inactive_on_update="false" label="Augurio" sequence="5" value="augurio"/>
+                <element inactive_on_update="false" label="Wow" sequence="6" value="wow"/>
+                <element inactive_on_update="false" label="Sigh" sequence="7" value="sigh"/>
+                <element inactive_on_update="false" label="Altro" sequence="8" value="altro"/>
+            </choice>
+        </element>
+        <element attributes="is_multi_text=true,preview_first=true,preview_selector=true" label="Prova" max_length="65536" name="u_wiki" type="wiki_text"/>
+        <index name="index">
+            <element name="utente_commento"/>
+        </index>
+        <index name="index2">
+            <element name="idannuncio"/>
+        </index>
+        <index name="index3">
+            <element name="id"/>
+        </index>
+    </element>
+</database>

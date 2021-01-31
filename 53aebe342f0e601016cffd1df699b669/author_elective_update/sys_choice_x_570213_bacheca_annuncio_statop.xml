@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="statop" table="x_570213_bacheca_annuncio" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>statop</element>
+            <name>x_570213_bacheca_annuncio</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 14:11:50</sys_created_on>
+            <sys_id>6b272b702f8e601016cffd1df699b6e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>statop</sys_name>
+            <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+            <sys_update_name>sys_choice_x_570213_bacheca_annuncio_statop</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 14:11:50</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>statop</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approvata</label>
+            <language>en</language>
+            <name>x_570213_bacheca_annuncio</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 14:11:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23272b702f8e601016cffd1df699b6e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 14:11:50</sys_updated_on>
+            <value>approvata</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>statop</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending</label>
+            <language>en</language>
+            <name>x_570213_bacheca_annuncio</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 14:11:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3272b702f8e601016cffd1df699b6e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 14:11:50</sys_updated_on>
+            <value>pending</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>statop</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non Approvata</label>
+            <language>en</language>
+            <name>x_570213_bacheca_annuncio</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 14:11:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67272b702f8e601016cffd1df699b6e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 14:11:50</sys_updated_on>
+            <value>non approvata</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

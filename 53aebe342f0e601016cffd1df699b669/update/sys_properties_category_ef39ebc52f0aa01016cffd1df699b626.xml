@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>CategoriaPropertiesData</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 09:00:40</sys_created_on>
+        <sys_id>ef39ebc52f0aa01016cffd1df699b626</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CategoriaPropertiesData</sys_name>
+        <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+        <sys_update_name>sys_properties_category_ef39ebc52f0aa01016cffd1df699b626</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 09:05:09</sys_updated_on>
+        <title><![CDATA[<p><span style="font-family: &#39;comic sans ms&#39;, sans-serif; font-size: 24pt;"><strong>Proprietà dell&#39;applicativo Bacheca</strong></span></p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=ef39ebc52f0aa01016cffd1df699b626"/>
+</record_update>

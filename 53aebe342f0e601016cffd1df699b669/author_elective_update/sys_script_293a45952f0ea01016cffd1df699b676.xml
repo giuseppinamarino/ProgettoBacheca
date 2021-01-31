@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_570213_bacheca_commento</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_570213_bacheca_commento">datacommentoNOTONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^EQ<item endquery="false" field="datacommento" goto="false" newquery="false" operator="NOTON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>NoCommento</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+		var today = new GlideDateTime();
+	//valore in formato data/time preso dal campo 
+	var DataDiUscita = new GlideDateTime(current.datacommento);
+	if(DataDiUscita.before(today)){
+		gs.addErrorMessage('Errore: non si può commentare un annuncio passato');
+		current.setAbortAction(true);
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 16:07:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>293a45952f0ea01016cffd1df699b676</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>NoCommento</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+        <sys_update_name>sys_script_293a45952f0ea01016cffd1df699b676</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 16:30:23</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=293a45952f0ea01016cffd1df699b676"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bacheca">53aebe342f0e601016cffd1df699b669</application>
+        <file_path/>
+        <instance_id>9ff47c20db270c5407072f17d49619f0</instance_id>
+        <instance_name>dev102776</instance_name>
+        <name>sys_script_293a45952f0ea01016cffd1df699b676</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_570213_bacheca_commento&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_570213_bacheca_commento"&gt;datacommentoNOTONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^EQ&lt;item endquery="false" field="datacommento" goto="false" newquery="false" operator="NOTON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;NoCommento&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+		var today = new GlideDateTime();
+	//valore in formato data/time preso dal campo 
+	var DataDiUscita = new GlideDateTime(current.datacommento);
+	if(DataDiUscita.before(today)){
+		gs.addErrorMessage('Errore: non si può commentare un annuncio passato');
+		current.setAbortAction(true);
+	}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-30 16:07:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;293a45952f0ea01016cffd1df699b676&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;NoCommento&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Bacheca" source="x_570213_bacheca"&gt;53aebe342f0e601016cffd1df699b669&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Bacheca"&gt;53aebe342f0e601016cffd1df699b669&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_293a45952f0ea01016cffd1df699b676&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-01-30 16:30:23&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=293a45952f0ea01016cffd1df699b676"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1485949052</payload_hash>
+        <record_name>NoCommento</record_name>
+        <reverted_from/>
+        <source>5baebe342f0e601016cffd1df699b66b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 16:30:23</sys_created_on>
+        <sys_id>f270dd992f0ea01016cffd1df699b61d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177542196bc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 16:30:23</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>fa70dd99120ea010b22181713f850e1c</update_guid>
+        <update_guid_history>fa70dd99120ea010b22181713f850e1c:1485949052,06bfc199fc0ea0102e87af358c14cff5:-859475214,306fc199840ea0101d06b513adbe0812:-1659961006,c81ec159280ea010b2ba7e6e8d64bbc5:-859475214,bcedc159650ea0100a5d996fd2fe5b42:-531626038,547d8d199e0ea0104b0d10e21c16fd8f:-1969626765,d85d8919060ea01051ff2155feef0510:-859475214,fe0d8dd5390ea010473d5eeb0103eca6:1468500018,6fdc8519030ea0102a2111f83768e3d2:-1381093518,276c8119a30ea0104814c8c8ad29b206:246366959,c3dbc9d57c0ea010090021e9d6714d16:-95661134,e65b45d59c0ea010164fd25c3bd18b30:-1510564819,f42b81d54f0ea010d6ff0fa227aeb4c2:437212294</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-31 09:25:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>1c0ea118b0ce45598e7d1d3dd20ef879</sys_id>
+        <sys_metadata>293a45952f0ea01016cffd1df699b676</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NoCommento</sys_name>
+        <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+        <sys_parent display_value="Commento">a590c7b42f0e601016cffd1df699b6fc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+        <sys_scope_delete display_value="">2262fd9e84974fb0980c42e6b69bb100</sys_scope_delete>
+        <sys_update_name>sys_script_293a45952f0ea01016cffd1df699b676</sys_update_name>
+        <sys_update_version display_value="sys_script_293a45952f0ea01016cffd1df699b676">f270dd992f0ea01016cffd1df699b61d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-31 09:25:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

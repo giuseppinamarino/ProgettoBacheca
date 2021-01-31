@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Review" max_length="40" name="x_570213_bacheca_review" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Data Review" max_length="40" name="datareview" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="ID_Utente" max_length="32" name="id1" reference="x_570213_bacheca_utente" type="reference"/>
+        <element attributes="encode_utf8=false" label="ID_Annuncio" max_length="32" name="id_annuncio" reference="x_570213_bacheca_annuncio" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Email Utente" max_length="40" name="mail1" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Stelle" max_length="40" name="stelle" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Testo" max_length="40" name="testo" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Titolo" max_length="40" name="titolo" type="string"/>
+        <element attributes="omit_sys_original=true" label="New Currency" max_length="20" name="u_currency_1" type="currency"/>
+        <index name="index">
+            <element name="id1"/>
+        </index>
+        <index name="index2">
+            <element name="id_annuncio"/>
+        </index>
+    </element>
+</database>

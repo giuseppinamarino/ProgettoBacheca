@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Utente" max_length="40" name="x_570213_bacheca_utente" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Codice Fiscale" max_length="16" name="cf" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cognome" max_length="40" name="cognome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Data di Nascita" max_length="40" name="data" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Mail" max_length="40" name="mail" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nazionalità" max_length="40" name="nazionalit" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome" max_length="40" name="nome" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Provincia di nascita" max_length="40" name="provincia" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Regione di nascita" max_length="40" name="regione" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Residenza" max_length="40" name="residenza" type="string"/>
+        <element label="Consenso dei datipersonali" max_length="40" name="u_boolean_5" type="boolean"/>
+    </element>
+</database>

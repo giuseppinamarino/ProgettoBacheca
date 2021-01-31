@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="programma" label="Programma dell'evento" language="en" table="x_570213_bacheca_annuncio">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>programma</element>
+            <help/>
+            <hint/>
+            <label>Programma dell'evento</label>
+            <language>en</language>
+            <name>x_570213_bacheca_annuncio</name>
+            <plural>Programma dell'eventos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-31 08:47:24</sys_created_on>
+            <sys_id>e210f4e92f46e01016cffd1df699b617</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Programma dell'evento</sys_name>
+            <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+            <sys_update_name>sys_documentation_x_570213_bacheca_annuncio_programma_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-31 08:47:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

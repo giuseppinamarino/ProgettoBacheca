@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="tipologiaproposta" table="x_570213_bacheca_annuncio" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>tipologiaproposta</element>
+            <name>x_570213_bacheca_annuncio</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 13:47:04</sys_created_on>
+            <sys_id>34812f7c2f4e601016cffd1df699b66e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>tipologiaproposta</sys_name>
+            <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+            <sys_update_name>sys_choice_x_570213_bacheca_annuncio_tipologiaproposta</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 13:47:04</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipologiaproposta</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Altro</label>
+            <language>en</language>
+            <name>x_570213_bacheca_annuncio</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 13:47:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30812f7c2f4e601016cffd1df699b671</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 13:56:05</sys_updated_on>
+            <value>altro</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipologiaproposta</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Migliorare la gestione Asset</label>
+            <language>en</language>
+            <name>x_570213_bacheca_annuncio</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 13:47:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8812f7c2f4e601016cffd1df699b66d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 13:47:04</sys_updated_on>
+            <value>migliorare la gestione asset</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipologiaproposta</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Comunicazione tra dipendenti</label>
+            <language>en</language>
+            <name>x_570213_bacheca_annuncio</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 13:47:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc812f7c2f4e601016cffd1df699b66f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 13:47:04</sys_updated_on>
+            <value>comunicazionetradipendenti</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipologiaproposta</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Altra proposta</label>
+            <language>en</language>
+            <name>x_570213_bacheca_annuncio</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 13:56:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b093a3fc2f4e601016cffd1df699b64a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 13:56:05</sys_updated_on>
+            <value>altrap</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>statop</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 14:13:45</sys_created_on>
+        <sys_id>0f876f702f8e601016cffd1df699b6ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>statop</sys_name>
+        <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+        <sys_update_name>sys_ui_policy_action_0f876f702f8e601016cffd1df699b6ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 14:13:45</sys_updated_on>
+        <table>x_570213_bacheca_annuncio</table>
+        <ui_policy display_value="Aggiunti stato della proposta">2647ab702f8e601016cffd1df699b65c</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bacheca">53aebe342f0e601016cffd1df699b669</application>
+        <file_path/>
+        <instance_id>9ff47c20db270c5407072f17d49619f0</instance_id>
+        <instance_name>dev102776</instance_name>
+        <name>sys_ui_policy_action_0f876f702f8e601016cffd1df699b6ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>false</disabled><field>statop</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-29 14:13:45</sys_created_on><sys_id>0f876f702f8e601016cffd1df699b6ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>statop</sys_name><sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package><sys_policy/><sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope><sys_update_name>sys_ui_policy_action_0f876f702f8e601016cffd1df699b6ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-29 14:13:45</sys_updated_on><table>x_570213_bacheca_annuncio</table><ui_policy display_value="Aggiunti stato della proposta">2647ab702f8e601016cffd1df699b65c</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>268037214</payload_hash>
+        <record_name>statop</record_name>
+        <reverted_from/>
+        <source>5baebe342f0e601016cffd1df699b66b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 14:13:45</sys_created_on>
+        <sys_id>239763702f8e601016cffd1df699b60c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1774e7e22280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 14:13:45</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>6b976370288e6010808fddef6e6b3c0b</update_guid>
+        <update_guid_history>6b976370288e6010808fddef6e6b3c0b:268037214</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 21:18:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>14a874ec159441c888f8349ee1c64719</sys_id>
+        <sys_metadata>0f876f702f8e601016cffd1df699b6ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>statop</sys_name>
+        <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+        <sys_scope_delete display_value="">2262fd9e84974fb0980c42e6b69bb100</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_0f876f702f8e601016cffd1df699b6ba</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_0f876f702f8e601016cffd1df699b6ba">239763702f8e601016cffd1df699b60c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 21:18:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="datacommento" label="Data e ora Commento" language="en" table="x_570213_bacheca_commento">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>datacommento</element>
+            <help/>
+            <hint/>
+            <label>Data e ora Commento</label>
+            <language>en</language>
+            <name>x_570213_bacheca_commento</name>
+            <plural>Data e ora Commentos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-30 16:09:54</sys_created_on>
+            <sys_id>72cb89d52f0ea01016cffd1df699b60a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Data e ora Commento</sys_name>
+            <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+            <sys_update_name>sys_documentation_x_570213_bacheca_commento_datacommento_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-30 16:09:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

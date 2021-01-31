@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_570213_bacheca_annuncio">tipologiaproposta=altrap^u_tipo_annuncio=proposta^u_tipo_annuncio!=organizzazionev^u_tipo_annuncio!=organizzazione^EQ<item display_value="Altra proposta" endquery="false" field="tipologiaproposta" goto="false" newquery="false" operator="=" or="false" value="altrap"/>
+            <item display_value="Proposta per miglioramento della qualità del lavoro" endquery="false" field="u_tipo_annuncio" goto="false" newquery="false" operator="=" or="false" value="proposta"/>
+            <item display_value="Organizzazione evento aziendale" endquery="false" field="u_tipo_annuncio" goto="false" newquery="false" operator="!=" or="false" value="organizzazionev"/>
+            <item display_value="Organizzazione di un'attività informale" endquery="false" field="u_tipo_annuncio" goto="false" newquery="false" operator="!=" or="false" value="organizzazione"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+g_form.showFieldMsg('altrapr','Specifica altra proposta','info');
+}]]></script_true>
+        <set_values/>
+        <short_description>Aggiungi altra proposta relativa alla tipologia proposta</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 14:01:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>50c327fc2f4e601016cffd1df699b659</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Aggiungi altra proposta relativa alla tipologia proposta</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+        <sys_update_name>sys_ui_policy_50c327fc2f4e601016cffd1df699b659</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 14:57:11</sys_updated_on>
+        <table>x_570213_bacheca_annuncio</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bacheca">53aebe342f0e601016cffd1df699b669</application>
+        <file_path/>
+        <instance_id>9ff47c20db270c5407072f17d49619f0</instance_id>
+        <instance_name>dev102776</instance_name>
+        <name>sys_ui_policy_50c327fc2f4e601016cffd1df699b659</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_570213_bacheca_annuncio"&gt;tipologiaproposta=altrap^u_tipo_annuncio=proposta^u_tipo_annuncio!=organizzazionev^u_tipo_annuncio!=organizzazione^EQ&lt;item display_value="Altra proposta" endquery="false" field="tipologiaproposta" goto="false" newquery="false" operator="=" or="false" value="altrap"/&gt;&lt;item display_value="Proposta per miglioramento della qualità del lavoro" endquery="false" field="u_tipo_annuncio" goto="false" newquery="false" operator="=" or="false" value="proposta"/&gt;&lt;item display_value="Organizzazione evento aziendale" endquery="false" field="u_tipo_annuncio" goto="false" newquery="false" operator="!=" or="false" value="organizzazionev"/&gt;&lt;item display_value="Organizzazione di un'attività informale" endquery="false" field="u_tipo_annuncio" goto="false" newquery="false" operator="!=" or="false" value="organizzazione"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+g_form.showFieldMsg('altrapr','Specifica altra proposta','info');
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Aggiungi altra proposta relativa alla tipologia proposta&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-29 14:01:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;50c327fc2f4e601016cffd1df699b659&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Aggiungi altra proposta relativa alla tipologia proposta&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Bacheca" source="x_570213_bacheca"&gt;53aebe342f0e601016cffd1df699b669&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Bacheca"&gt;53aebe342f0e601016cffd1df699b669&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_50c327fc2f4e601016cffd1df699b659&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-01-30 14:57:11&lt;/sys_updated_on&gt;&lt;table&gt;x_570213_bacheca_annuncio&lt;/table&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1628821493</payload_hash>
+        <record_name>Aggiungi altra proposta relativa alla tipologia proposta</record_name>
+        <reverted_from/>
+        <source>5baebe342f0e601016cffd1df699b66b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 14:57:11</sys_created_on>
+        <sys_id>a52bf81d2fcaa01016cffd1df699b609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17753cc42900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 14:57:11</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>212bf81dd7caa0109a4ee43b7632b409</update_guid>
+        <update_guid_history>212bf81dd7caa0109a4ee43b7632b409:1628821493,3c56ef30278e6010fba3b9d370f4a8b6:1701086414,b4c4affc7d4e601093c037aa4410e475:1872711132</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 21:19:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>c6c22a461fcc48e28f5da4485fcd20c4</sys_id>
+        <sys_metadata>50c327fc2f4e601016cffd1df699b659</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Aggiungi altra proposta relativa alla tipologia proposta</sys_name>
+        <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+        <sys_parent display_value="Annuncio">5bdf76f42f0e601016cffd1df699b600</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+        <sys_scope_delete display_value="">2262fd9e84974fb0980c42e6b69bb100</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_50c327fc2f4e601016cffd1df699b659</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_50c327fc2f4e601016cffd1df699b659">a52bf81d2fcaa01016cffd1df699b609</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 21:19:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Annuncio" max_length="40" name="x_570213_bacheca_annuncio" sizeclass="8" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Altra causa annullamento" max_length="40" name="aca" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Aggiungi altro evento" max_length="40" name="aggiungievento" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Altra causa" max_length="40" name="altracausa" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Altra Proposta" max_length="40" name="altrapr" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Altra attività informale" max_length="40" name="altrattivitainformale" type="string"/>
+        <element label="Annullata" max_length="40" name="annullata" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Azioni correttive" max_length="40" name="azionicorrettive" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Budget a disposizione" max_length="20" name="budgetdisposizione" type="price"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Budget necessario" max_length="20" name="budgetnecessario" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="festività" label="Causa annullamento organizzazione" max_length="40" name="cao" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Festività" sequence="0" value="festività"/>
+                <element inactive_on_update="false" label="Riunione" sequence="1" value="riunione"/>
+                <element inactive_on_update="false" label="Altro" sequence="2" value="altro"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Catering" max_length="40" name="catering" type="string">
+            <choice>
+                <element inactive_on_update="false" label="NO" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="SI" sequence="1" value="si"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="riunione" label="Causa Annullamento" max_length="40" name="causannullamento" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Altra causa annullamento" sequence="0" value="altracausannullamento"/>
+                <element inactive_on_update="false" label="Riunione" sequence="0" value="riunione"/>
+                <element inactive_on_update="false" label="Festività" sequence="1" value="festività"/>
+                <element inactive_on_update="false" label="Altro" sequence="2" value="altro"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Data Evento" max_length="40" name="dataevento" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Data Proposta" max_length="40" name="dataproposta" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Data Attività Informale" max_length="40" name="datattivit" type="glide_date_time"/>
+        <element label="Evento Online" max_length="40" name="eventoonline" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="manager" label="A chi inviare la proposta" max_length="40" name="inviareproposta" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Manager" sequence="0" value="manager"/>
+                <element inactive_on_update="false" label="Amministratore" sequence="1" value="amministratore"/>
+                <element inactive_on_update="false" label="Project Manager" sequence="2" value="projectmanager"/>
+                <element inactive_on_update="false" label="Process Manager" sequence="3" value="processmanager"/>
+                <element inactive_on_update="false" label="Capo settore" sequence="4" value="caposettore"/>
+                <element inactive_on_update="false" label="Capo reparto" sequence="5" value="caporeparto"/>
+                <element inactive_on_update="false" label="Capo squadra" sequence="6" value="caposquadra"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Location attività informale" max_length="40" name="locationai" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="luogo" type="string"/>
+        <element label="Numero massimo partecipanti" max_length="40" name="nmax" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome Evento" max_length="40" name="nomevento" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Note" max_length="40" name="note" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Organizzazione annullata" max_length="40" name="oannullata" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Organizzazione evento aziendale" max_length="400" name="organizzazione_evento_aziendale" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Programma dell'evento" max_length="40" name="programma" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Richiesta quota partecipativa" max_length="40" name="quota" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="NO" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="SI" sequence="1" value="si"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="approvata" label="Stato della proposta" max_length="40" name="statop" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approvata" sequence="0" value="approvata"/>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>
+                <element inactive_on_update="false" label="Non Approvata" sequence="2" value="non approvata"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="teambuilding" label="Tipologia Evento" max_length="40" name="tipologiaevento" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Team Building" sequence="0" value="teambuilding"/>
+                <element inactive_on_update="false" label="Sportivo" sequence="1" value="sportivo"/>
+                <element inactive_on_update="false" label="Svago" sequence="2" value="svago"/>
+                <element inactive_on_update="false" label="Altro" sequence="3" value="altro"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="pizzata" label="Tipologia attività informale" max_length="40" name="tipologiai" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pizzata" sequence="0" value="pizzata"/>
+                <element inactive_on_update="false" label="Week end fuori" sequence="1" value="week end fuori"/>
+                <element inactive_on_update="false" label="Gita" sequence="2" value="gita"/>
+                <element inactive_on_update="false" label="Escursione" sequence="3" value="escursione"/>
+                <element inactive_on_update="false" label="Torneo" sequence="4" value="torneo"/>
+                <element inactive_on_update="false" label="Altro" sequence="5" value="altro"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="migliorare la gestione asset" label="Tipologia Proposta" max_length="40" name="tipologiaproposta" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Altro" sequence="0" value="altro"/>
+                <element inactive_on_update="false" label="Migliorare la gestione Asset" sequence="0" value="migliorare la gestione asset"/>
+                <element inactive_on_update="false" label="Comunicazione tra dipendenti" sequence="1" value="comunicazionetradipendenti"/>
+                <element inactive_on_update="false" label="Altra proposta" sequence="2" value="altrap"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Utente che promuove la richiesta" max_length="32" name="utenterichiesta" reference="x_570213_bacheca_annuncio" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Data organizzazione" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Utente che organizza l'evento" max_length="40" name="u_organizza_evento" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Quota partecipativa" max_length="20" name="u_qp" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="organizzazionev" label="Tipo Annuncio" max_length="40" name="u_tipo_annuncio" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Organizzazione evento aziendale" sequence="0" value="organizzazionev"/>
+                <element inactive_on_update="false" label="Proposta per miglioramento della qualità del lavoro" sequence="1" value="proposta"/>
+                <element inactive_on_update="false" label="Organizzazione di un'attività informale" sequence="2" value="organizzazione"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="utenterichiesta"/>
+        </index>
+    </element>
+</database>

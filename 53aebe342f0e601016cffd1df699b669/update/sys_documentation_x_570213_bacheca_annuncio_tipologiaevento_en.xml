@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="tipologiaevento" label="Tipologia Evento" language="en" table="x_570213_bacheca_annuncio">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>tipologiaevento</element>
+            <help/>
+            <hint/>
+            <label>Tipologia Evento</label>
+            <language>en</language>
+            <name>x_570213_bacheca_annuncio</name>
+            <plural>Tipologia Eventos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 11:55:14</sys_created_on>
+            <sys_id>62e78f3c2f0e601016cffd1df699b6b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Tipologia Evento</sys_name>
+            <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+            <sys_update_name>sys_documentation_x_570213_bacheca_annuncio_tipologiaevento_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 11:55:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

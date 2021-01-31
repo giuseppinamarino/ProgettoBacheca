@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="quota" label="Richiesta quota partecipativa" language="en" table="x_570213_bacheca_annuncio">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>quota</element>
+            <help/>
+            <hint/>
+            <label>Richiesta quota partecipativa</label>
+            <language>en</language>
+            <name>x_570213_bacheca_annuncio</name>
+            <plural>Richiesta quota partecipativas</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 14:24:21</sys_created_on>
+            <sys_id>760aa7f02f8e601016cffd1df699b69c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Richiesta quota partecipativa</sys_name>
+            <sys_package display_value="Bacheca" source="x_570213_bacheca">53aebe342f0e601016cffd1df699b669</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">53aebe342f0e601016cffd1df699b669</sys_scope>
+            <sys_update_name>sys_documentation_x_570213_bacheca_annuncio_quota_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 14:50:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
